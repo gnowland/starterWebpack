@@ -1,34 +1,36 @@
 # Webpack Starter Kit
 
-This is a front-end development starter kit that uses **npm**, **webpack** and **browsersync**.
+This is a front-end development starter kit that uses **yarn**, **webpack** and **browsersync**.
 
-The main content of this repository is package.json and webpack.config.js.
-Also included is a test /src folder and a test index.html.
+    * Dependancies are managed in `package.json` (yarn)
+    * Builds are managed in `webpack.config.js` (webpack)
+    * Source files (files that need to be manipulated before they can be used) are located in `/src`.
+    * Compiled modules (js, css -- files that can be used with other systems) will be output to `/dist` by webpack. These files should not be modified directly!
+    * A boilerplate main.js, app.js, and index.html are also included.
 
-### How does it work
+### How it works
 
-1. Install Node on your machine
-
-    I recommend using [NVM](https://github.com/creationix/nvm) or [nodenv](https://github.com/nodenv/nodenv), but you can also use the binaries from the [Node](https://nodejs.org/en/) website.
-
-2. Open your terminal and go to the folder containing this project, then run
-
-    ```bash
-    npm install
-    ```
-
-3. Now you have at your disposal two main npm commands:
+1. [Install Yarn](https://yarnpkg.com/en/docs/install) (requires [node](https://nodejs.org/en/download/))
+2. Initilize project:
 
     ```bash
-    npm run dev
+    yarn
     ```
 
-    which will start browsersync, compile your js and scss, create sourcemaps and watch for file changes.
+3. Which will bring to your disposal two main build commands:
 
-    The command
+    1. **Dev**
 
-    ```bash
-    npm run dist
-    ```
+        starts browsersync, compiles your js and scss, creates sourcemaps and watches for file changes
 
-    will generate production files by additionally minifying css and packing media queries, plus less detailed source maps.
+        ```bash
+        yarn dev
+        ```
+
+    2. **Dist**
+
+        generates production files (minifies css and packs media queries), generates less detailed source maps
+
+        ```bash
+        yarn dist
+        ```
