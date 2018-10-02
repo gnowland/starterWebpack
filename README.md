@@ -2,11 +2,11 @@
 
 This is a front-end development starter kit that uses **yarn**, **webpack** and **browsersync**.
 
-    * Dependancies are managed in `package.json` (yarn)
-    * Builds are managed in `webpack.config.js` (webpack)
-    * Source files (files that need to be manipulated before they can be used) are located in `/src`.
-    * Compiled modules (js, css -- files that can be used with other systems) will be output to `/dist` by webpack. These files should not be modified directly!
-    * A boilerplate main.js, app.js, and index.html are also included.
+* Dependancies are managed in `package.json` (yarn)
+* Builds are managed in `webpack.config.js` (webpack)
+* Source files (files that need to be manipulated before they can be used) are located in `/src`.
+* Compiled modules (js, css -- files that can be used with other systems) will be output to `/dist` by webpack. These files should not be modified directly!
+* A boilerplate main.js, app.js, and index.html are also included.
 
 ### How it works
 
