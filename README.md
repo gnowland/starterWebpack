@@ -5,7 +5,7 @@ This is a front-end development starter kit that uses **yarn**, **webpack** and 
 * Dependancies are managed in `package.json` (yarn)
 * Builds are managed in `webpack.config.js` (webpack)
 * Source files (files that need to be manipulated before they can be used) are located in `/src`.
-* Compiled modules (js, css -- files that can be used with other systems) will be output to `/dist` by webpack. These files should not be modified directly!
+* Compiled modules (js, css -- files that can be used with other systems) will be output to `/dist` by **webpack** & **yarn** build processes (see below). *These files should not be modified directly, and will be overwritten on the next compile!*
 * A boilerplate main.js, app.js, and index.html are also included.
 
 ### How it works
