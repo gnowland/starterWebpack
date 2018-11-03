@@ -37,12 +37,3 @@
     @content;
   }
 }
-
-// usage
-// .my-box {
-//   padding: 10px;
-
-//   @include desktop-up {
-//     padding: 20px;
-//   }
-// }
