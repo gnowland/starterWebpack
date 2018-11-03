@@ -1,6 +1,6 @@
 const app = (() => {
   function init() {
-    console.log('logging works');
+    // Scripts go here
   }
 
   return {
