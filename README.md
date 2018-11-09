@@ -17,14 +17,22 @@ This is a front-end development starter kit that uses **yarn**, **webpack** and 
     yarn
     ```
 
-3. Which will bring to your disposal two main build commands:
+3. Which will bring to your disposal these main build commands:
 
     1. **Dev**
 
-        starts browsersync, compiles your js and scss, creates sourcemaps and watches for file changes
+        starts browsersync, compiles your js and scss, creates source maps and reloads on file changes (JS/CSS/HTML)
 
         ```bash
         yarn dev
+        ```
+
+    1 **Dev with PHP**
+
+        starts PHP CLI built-in web server, browsersync as proxy, compiles your js and scss, creates source maps and reloads on file changes (JS/CSS/HTML/PHP)
+
+        ```bash
+        yarn dev-php
         ```
 
     2. **Dist**
