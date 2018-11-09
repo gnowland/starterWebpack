@@ -6,7 +6,7 @@
   "author": "Gifford Nowland <hi@giffordnowland.com>",
   "license": "ISC",
   "private": true,
-  "main": "index.js",
+  "browser": "index.html",
   "scripts": {
     "autoprefixer": "postcss --use autoprefixer -r --no-map ./dist/css/main.css",
     "browsersync": "browser-sync start --no-open --reload-delay 500 --reload-debounce 500 --server --port 3333 './' --files './dist/css/*.css' './dist/js/*.js' './*.html'",
