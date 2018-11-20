@@ -27,7 +27,7 @@ This is a front-end development starter kit that uses **yarn**, **webpack** and 
         yarn dev
         ```
 
-    1 **Dev with PHP**
+    1. **Dev with PHP**
 
         starts PHP CLI built-in web server, browsersync as proxy, compiles your js and scss, creates source maps and reloads on file changes (JS/CSS/HTML/PHP)
 
