@@ -1,6 +1,6 @@
 {
   "name": "starterWebpack",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Modern front-end development starter kit powered by Yarn, WebPack, and BrowserSync",
   "repository": "git@github.com:gnowland/starterWebpack.git",
   "author": "Gifford Nowland <hi@giffordnowland.com>",
