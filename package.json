@@ -15,7 +15,7 @@
     "build:js": "webpack -p --config webpack.config.js",
     "clean:css": "cleancss --compatibility ie9 -o ./dist/css/main.min.css ./dist/css/main.css",
     "dev": "NODE_ENV=dev yarn run firstrun & yarn run watch:all & yarn run browsersync",
-    "dev-php": "NODE_ENV=dev yarn run firstrun & yarn run watch:all & yarn run php & yarn run browsersync",
+    "dev-php": "NODE_ENV=dev yarn run firstrun & yarn run watch:all & yarn run php & yarn run browsersync-php",
     "dist": "NODE_ENV=dist yarn run build:js && yarn run build:css && yarn run autoprefixer && yarn run mqpacker && yarn run clean:css",
     "mqpacker": "mqpacker -s ./dist/css/main.css ./dist/css/main.css",
     "firstrun": "yarn run build:css && yarn run build:js",
